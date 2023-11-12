@@ -6,6 +6,12 @@ public class IssueEntity {
   private String summary;
   private String description;
 
+  public IssueEntity(long id, String summary, String description) {
+    this.id = id;
+    this.summary = summary;
+    this.description = description;
+  }
+
   public long getId() {
     return id;
   }
@@ -30,9 +36,4 @@ public class IssueEntity {
     this.description = description;
   }
 
-  public IssueEntity(long id, String summary, String description) {
-    this.id = id;
-    this.summary = summary;
-    this.description = description;
-  }
 }
