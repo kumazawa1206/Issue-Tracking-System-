@@ -1,5 +1,8 @@
 package com.example.its.domain.issue;
 
+import lombok.Data;
+
+@Data
 public class IssueEntity {
 
   private long id;
